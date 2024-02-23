@@ -3,8 +3,11 @@ body {
     background-image: url(img/poppy-playtime-Playing-Poppy-Playtime-for-windows.webp);
     background-repeat: no-repeat;
     background-size: auto;
+    display: table;
+    background-attachment: fixed;  
+    background-size: cover;
+    img {
+        filter: brightness(55%);
+    }
 }
 
-h1 {
-    color: aliceblue;
-}
