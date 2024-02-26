@@ -7,6 +7,34 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>aa</h1>
+    <li>
+        <a href="">
+            <div class="botao" id="changeBackgroundBtn">
+                <h1>
+                    Capitulo 1
+                </h1>
+            </div>
+        </a>
+        
+        <a href="">
+            <div class="botao" id="changeBackgroundBtn">
+                <h1>
+                    Capitulo 1
+                </h1>
+            </div>
+        </a>
+
+    </li>
+
+    <script>
+            document.getElementById('changeBackgroundBtn').addEventListener('mouseenter', function() {
+  document.body.style.backgroundImage = "url('img/poppyplaytime.jpg')";
+});
+
+document.getElementById('changeBackgroundBtn').addEventListener('mouseleave', function() {
+  document.body.style.backgroundImage = "url('img/poppy-playtime-Playing-Poppy-Playtime-for-windows.webp')";
+});
+
+    </script>
 </body>
 </html>
