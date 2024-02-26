@@ -6,8 +6,28 @@ body {
     display: table;
     background-attachment: fixed;  
     background-size: cover;
-    img {
-        filter: brightness(55%);
-    }
 }
 
+.botao {
+    padding: 1px 20px;
+    background-color: black;
+}
+
+.smily {
+    background-color: aqua;
+}
+  
+  button {
+    
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
