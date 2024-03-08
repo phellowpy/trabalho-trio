@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
 
 body {
     margin: 0px;
@@ -7,6 +8,32 @@ body {
     background-attachment: fixed;  
     background-size: cover;
     font-family: "Pixelify Sans", sans-serif;
+}
+
+.water-brush-regular {
+  font-family: "Water Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.espacamento1 {
+  letter-spacing: 10px;
+  margin-top: 0;
+  font-size: 40px;
+}
+
+.espacamento2 {
+  margin-bottom: 0;
+  letter-spacing: 20px;
+  font-size: 100px;
+}
+
+.bg-button {
+  text-decoration: none;
+  color: #fff;
+  h1:hover {
+    border: 2px solid #fff;color: #000;
+  }
 }
 
 .botao {
@@ -22,6 +49,15 @@ h1:hover {
   color: #fff;
   background-color: #000;
   box-shadow: rgba(255, 0, 0, 200) 0px 22px 70px 4px;
+}
+
+#backgroundVideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
 }
 
 a {
