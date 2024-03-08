@@ -5,7 +5,7 @@ document.getElementById('changeBackgroundBtn1').addEventListener('mouseenter', f
 });
 
 document.getElementById('changeBackgroundBtn1').addEventListener('mouseleave', function() {
-  document.body.style.backgroundImage = "url('img/inicial/poppy-playtime-Playing-Poppy-Playtime-for-windows.webp')";
+  document.body.style.backgroundImage = "url('img/inicial/home.webp')";
 });
 
 document.getElementById('changeBackgroundBtn2').addEventListener('mouseenter', function() {
@@ -13,7 +13,7 @@ document.getElementById('changeBackgroundBtn2').addEventListener('mouseenter', f
 });
 
 document.getElementById('changeBackgroundBtn2').addEventListener('mouseleave', function() {
-  document.body.style.backgroundImage = "url('img/inicial/poppy-playtime-Playing-Poppy-Playtime-for-windows.webp')";
+  document.body.style.backgroundImage = "url('img/inicial/home.webp')";
 });
 
 document.getElementById('changeBackgroundBtn3').addEventListener('mouseenter', function() {
@@ -21,5 +21,5 @@ document.getElementById('changeBackgroundBtn3').addEventListener('mouseenter', f
 });
 
 document.getElementById('changeBackgroundBtn3').addEventListener('mouseleave', function() {
-  document.body.style.backgroundImage = "url('img/inicial/poppy-playtime-Playing-Poppy-Playtime-for-windows.webp')";
+  document.body.style.backgroundImage = "url('img/inicial/home.webp')";
 });
