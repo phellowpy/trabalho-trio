@@ -23,3 +23,12 @@ document.getElementById('changeBackgroundBtn3').addEventListener('mouseenter', f
 document.getElementById('changeBackgroundBtn3').addEventListener('mouseleave', function() {
   document.body.style.backgroundImage = "url('img/inicial/home.webp')";
 });
+
+document.getElementById('changeBackgroundBtn4').addEventListener('mouseenter', function() {
+  document.body.style.backgroundImage = "url('img/inicial/playtimeextra.png')";
+});
+
+document.getElementById('changeBackgroundBtn4').addEventListener('mouseleave', function() {
+  document.body.style.backgroundImage = "url('img/inicial/home.webp')";
+});
+
