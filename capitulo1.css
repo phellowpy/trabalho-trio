@@ -1,0 +1,12 @@
+.botao {
+    text-decoration: none;
+    color: #fff;
+    h1:hover {
+      border: 2px solid #fff; 
+      color: #fff;
+    }
+  }
+
+.botao > h1 {
+    font-size: 50px;
+}
