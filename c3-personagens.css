@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+
+body {
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    font-family: "Pixelify Sans", sans-serif;
+    background-color: black;
+    color: #fff;
+}
+
+header {
+    background-image: url(img/c3/c3-personagens/c3-cabecalho.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    height: 800px;
+}
+
+.Personagens {
+    font-size: 50px;
+}
